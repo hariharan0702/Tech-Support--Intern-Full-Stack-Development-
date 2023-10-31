@@ -1,0 +1,42 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 600px;
+    text-align: center;
+  }
+  
+  .card h1 {
+    margin-bottom: 20px;
+  }
+  
+  .card form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card label,
+  .card input {
+    margin: 5px 0;
+  }
+  
+  .card button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .card button:hover {
+    background: #0056b3;
+  }
+  
